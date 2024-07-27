@@ -1,0 +1,44 @@
+.bg-primary {
+    background-color: #007bff; /* Example color, adjust as needed */
+}
+
+.topbar-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+  
+  .topbar-icon {
+    margin-right: 15px; /* Adjust this value to control the gap */
+    color: #ffffff; /* Ensures icon color matches text */
+    font-size: 1rem; /* Adjust size if needed */
+  }
+  
+  .topbar-icon i {
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
+  .text-light {
+    color: #ffffff;
+    margin-right: 20px; /* Adjust spacing between text and next item */
+  }
+  .login{
+    margin-left: 4rem;
+  }
+
+  @media (max-width: 991px) {
+    .topbar-container {
+      justify-content: center; /* Center items on smaller screens */
+    }
+  
+    .topbar-icon {
+      margin-right: 10px; /* Reduce margin on smaller screens */
+    }
+  
+    .text-light {
+      margin-right: 15px; /* Reduce margin on smaller screens */
+    }
+  }
+  

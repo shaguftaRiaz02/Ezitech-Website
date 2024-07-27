@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.hero-section h3{
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 4cap;
+}
+
+/* Adjust Logo Size */
+.logo img {
+    height: 20%;
+    width: auto;
+}
+
+/* Background Image */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 127%;
+    background: url('/images/hero.png') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.5; /* Adjust opacity for background */
+}
+
+/* Navbar Styles */
+.navbar .nav-item {
+    font-weight: 800;
+}
+
+/* Navbar Container */
+.navbar-container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Navbar Styles */
+.navbar-light {
+    background: transparent !important; /* Ensure the background is transparent */
+}
+
+.navbar-light .navbar-nav {
+    margin: 0 auto; /* Center align the navbar items */
+    display: flex;
+    justify-content: center; /* Center align the navbar items */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff !important; /* White color for links */
+    font-size: 17px;
+    font-weight: 900;
+    padding: 15px 30px; /* Adjust padding as needed */
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--bs-primary) !important; /* Color for active/hover state */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-brand img {
+    max-height: 120px;
+    width: auto;
+}
+
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5); /* Background with reduced opacity */
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0; /* Remove top margin */
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h4 {
+    letter-spacing: 3px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 0; /* Reduce top margin */
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-top: 0; /* Reduce top margin for paragraphs */
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-brand img {
+        max-height: 45px;
+    }
+}
+
+/* Container for the search input and button */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-input-wrapper {
+    position: relative;
+    display: inline-block;
+    border-radius: 50px; /* Corrected from 50% to match input border-radius */
+  }
+  
+  .search-input-wrapper input {
+    border-radius: 50px;
+    /* padding: 10px 30px 10px 20px; Padding with space for the icon on the right */
+    border: none; /* Removed border */
+    padding: 10px 100px;
+    
+  }
+  
+  .search-input-wrapper input::placeholder {
+    text-align: left; /* Placeholder text aligns to the leftmost side */
+    color:rgba(0, 0, 0, 0.56) ;
+  }
+  
+  .search-input {
+    padding-right: 40px; /* Adjust to make room for the icon */
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px; /* Position the icon inside the input field */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* So the icon doesn't interfere with input interaction */
+    color: rgba(0, 0, 0, 0.56);
+  }
+  
+  

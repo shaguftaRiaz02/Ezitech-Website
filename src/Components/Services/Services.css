@@ -1,0 +1,63 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  
+  .section1 .heading h1{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .working {
+    display: flex;
+    justify-content: center; /* Center the images */
+    gap: 100px; /* Add space between images */
+    width: 80%; /* Ensure the container takes the full width */
+    padding: 3cap;
+  }
+  
+  .working .work1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .working img {
+    max-width: 100%;
+    height: auto; /* Ensure the image maintains its aspect ratio */
+  }
+  
+ /* Section 2 */
+.card-custom {
+    background-color: #fff;
+    border: none;
+    box-shadow: 10px 14px 8px rgba(0, 0, 0, 0.353);
+  }
+  
+  .card-img-top {
+    width: 50%; /* Adjust size as needed */
+    height: auto;
+    border-bottom: none;
+  }
+
+
+  
+  .card-body {
+    padding: 3rem;
+  }
+  .card-body h5 {
+    color: black;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    text-align: center;
+    
+  }
+  

@@ -1,0 +1,51 @@
+.container {
+    margin-top: 7rem;
+  }
+  
+  .container .content {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+  
+  .heading {
+    font-size: 5cap;
+    font-weight: bold;
+  }
+  
+  .heading span {
+    color: #2575ED
+  }
+  
+  .content p {
+    margin-top: 2rem;
+    line-height: 30px;
+  }
+  
+  .container .store {
+    margin-top: 2rem;
+    margin: 0 auto;
+    margin-left: 2rem;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #385BCE;
+    border-radius: 50%;
+    top: 50px; /* Adjust as necessary */
+    left: 60%;  /* Adjust as necessary */
+    transform: translateX(-50%);
+  }
+  
+  .phone-image {
+    position: relative;
+    z-index: 1;
+  }
+  
