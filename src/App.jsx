@@ -6,6 +6,7 @@ import Internship from "./Components/Internships/Internship";
 import Download from "./Components/Download/Download";
 import EndNote from './Components/EndNote/EndNote'
 import Footer from "./Components/Footer/Footer"
+import ContactUs from "./Components/ContactUs/ContactUs";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Download/>
       <EndNote/>
       <Footer/>
+      <ContactUs/>
     </>
   );
 };
